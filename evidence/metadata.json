@@ -1,0 +1,40 @@
+{
+  "generated_at_utc": "2026-10-01T03:05:06.537600+00:00",
+  "repository": "https://github.com/pallets/werkzeug",
+  "commit": "f7e37f0bf510fa355fdac3e922cc2078916b021f",
+  "upstream_version_label": "3.2.0.dev",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.41",
+  "dependencies": {
+    "MarkupSafe": "3.0.3",
+    "pytest": "8.4.2",
+    "iniconfig": "2.3.0",
+    "packaging": "26.3",
+    "pluggy": "1.6.0",
+    "Pygments": "2.21.0"
+  },
+  "method": "In-process WSGI tests on synthetic temporary files; no network targets",
+  "suites": {
+    "audit": {
+      "exit_code": 0,
+      "tests": 32,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "upstream-focused": {
+      "exit_code": 0,
+      "tests": 21,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "sha256": {
+    "upstream/src/werkzeug/security.py": "a076684537b8d43a2a9647879062643c96f1d46d04fd959aba820957cfbac820",
+    "upstream/src/werkzeug/middleware/shared_data.py": "e92d587d2148f3060b48bae929314b80a432dfddeca87cc51d0bf301661c53ad",
+    "test_audit.py": "480309c88b0cda2b20e1d18ac527f11ec4e3bbd39015c3881b7e75508ff71f6e",
+    "run_checks.py": "1ebee9230f8648b48e2b68914b8e309848408ae6a4b7fc029106a75e19d387a5"
+  },
+  "claim": "Bounded deployment-behavior review; no new vulnerability or CVE claimed."
+}
